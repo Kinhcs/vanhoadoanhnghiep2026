@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Văn hóa doanh nghiệp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz Văn hóa doanh nghiệp</h1>
+
+    <div id="quiz-box">
+      <p id="question-number"></p>
+      <h2 id="question-text"></h2>
+
+      <div id="answers"></div>
+
+      <button id="submit-btn">Nộp câu trả lời</button>
+      <button id="next-btn" style="display: none;">Câu tiếp theo</button>
+
+      <p id="feedback"></p>
+    </div>
+
+    <div id="result-box" style="display: none;">
+      <h2>Kết quả</h2>
+      <p id="score-text"></p>
+      <button onclick="location.reload()">Làm lại</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
